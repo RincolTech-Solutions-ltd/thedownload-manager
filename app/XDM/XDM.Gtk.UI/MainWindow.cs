@@ -105,7 +105,7 @@ namespace XDM.GtkUI
         private Menu menuInProgress, menuFinished;
         private IPlatformClipboardMonitor clipboarMonitor;
 
-        public MainWindow() : base("Xtreme Download Manager")
+        public MainWindow() : base("TheDownload Manager")
         {
             SetDefaultIconFromFile(IoPath.Combine(AppDomain.CurrentDomain.BaseDirectory, "xdm-logo-512.png"));
             SetPosition(WindowPosition.CenterAlways);
@@ -1062,7 +1062,7 @@ namespace XDM.GtkUI
                 owner = this;
             }
             using var msg = new MessageDialog(owner, DialogFlags.Modal, MessageType.Question, ButtonsType.YesNo, text);
-            msg.Title = "XDM";
+            msg.Title = "TheDownload Manager";
             if (msg.Run() == (int)ResponseType.Yes)
             {
                 return true;
@@ -1110,7 +1110,7 @@ namespace XDM.GtkUI
 
         public void DeleteAllFinishedDownloads()
         {
-            if (!GtkHelper.ShowConfirmMessageBox(this, TextResource.GetText("MENU_DELETE_COMPLETED"), "XDM"))
+            if (!GtkHelper.ShowConfirmMessageBox(this, TextResource.GetText("MENU_DELETE_COMPLETED"), "TheDownload Manager"))
             {
                 return;
             }

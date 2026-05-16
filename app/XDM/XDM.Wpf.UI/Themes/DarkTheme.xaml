@@ -5,7 +5,7 @@
 
     <SolidColorBrush x:Key="CategoryForegroundNormal" Color="#808080"/>
     <SolidColorBrush x:Key="CategoryForegroundSelected" Color="White"/>
-    <SolidColorBrush x:Key="CategoryHighlight" Color="#114C7B"/>
+    <SolidColorBrush x:Key="CategoryHighlight" Color="#1A73E8"/>
     <SolidColorBrush x:Key="CategoryListBackground" Color="#1B1C1E"/>
     <SolidColorBrush x:Key="CategoryMouseOverBackground" Color="#252628"/>
 
@@ -15,7 +15,7 @@
     <SolidColorBrush x:Key="ButtonMousePressedBackcolor" Color="#1B1C1E"/>
     <SolidColorBrush x:Key="ButtonDisabledBackcolor" Color="#2B2B2B"/>
     <SolidColorBrush x:Key="ButtonBorder" Color="#323232"/>
-    <SolidColorBrush x:Key="ButtonFocusedBorder" Color="#114C7B"/>
+    <SolidColorBrush x:Key="ButtonFocusedBorder" Color="#1A73E8"/>
     <SolidColorBrush x:Key="ButtonOverBackcolor" Color="#383838"/>
 
     <SolidColorBrush x:Key="ToolButtonForecolor" Color="#B5BCC9"/>
@@ -34,16 +34,16 @@
     <SolidColorBrush x:Key="TextBackcolor" Color="#2B2B2B"/>
     <SolidColorBrush x:Key="TextForecolor" Color="#ABB2BF"/>
     <SolidColorBrush x:Key="DisabledTextBackcolor" Color="#252628"/>
-    <SolidColorBrush x:Key="TextMouseOverBorder" Color="#114C7B"/>
+    <SolidColorBrush x:Key="TextMouseOverBorder" Color="#1A73E8"/>
     <SolidColorBrush x:Key="TextBorder" Color="#3C3C3C"/>
-    <SolidColorBrush x:Key="TextFocusedBorder" Color="#114C7B"/>
+    <SolidColorBrush x:Key="TextFocusedBorder" Color="#1A73E8"/>
 
     <SolidColorBrush x:Key="ListViewBackcolor" Color="#232428"/>
     <SolidColorBrush x:Key="ListViewForecolor" Color="#B5BCC9"/>
     <SolidColorBrush x:Key="ListViewMouseOverBackcolor" Color="#31363F"/>
     <SolidColorBrush x:Key="ListViewMouseOverForecolor" Color="#F0F0F0"/>
     <SolidColorBrush x:Key="ListViewSelectedForecolor" Color="White"/>
-    <SolidColorBrush x:Key="ListViewSelectedBackcolor" Color="#114C7B"/>
+    <SolidColorBrush x:Key="ListViewSelectedBackcolor" Color="#1A73E8"/>
     <SolidColorBrush x:Key="ListViewIconForecolor" Color="#777D88"/>
     <SolidColorBrush x:Key="ListViewHeaderForecolor" Color="#777D88"/>
 
@@ -70,10 +70,10 @@
     <SolidColorBrush x:Key="ScrollBarThumbColorHot" Color="#3E3F41"/>
 
     <SolidColorBrush x:Key="ControlDisabledBackcolor" Color="#111214"/>
-    <SolidColorBrush x:Key="TabSelectionColor" Color="#114C7B"/>
+    <SolidColorBrush x:Key="TabSelectionColor" Color="#1A73E8"/>
 
     <SolidColorBrush x:Key="ProgressBarBackcolor" Color="#343537"/>
-    <SolidColorBrush x:Key="ProgressBarForecolor" Color="#114C7B"/>
+    <SolidColorBrush x:Key="ProgressBarForecolor" Color="#1A73E8"/>
 
     <core:Double x:Key="ButtonDisabledOpacity">0.4</core:Double>
 

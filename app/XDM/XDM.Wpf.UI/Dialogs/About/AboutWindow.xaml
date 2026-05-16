@@ -8,11 +8,11 @@
         Title="{StaticResource MENU_ABOUT}" Height="450" Width="500" ShowInTaskbar="False" WindowStartupLocation="CenterOwner">
     <Grid>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Canvas Width="128" Height="128" Background="#2471A3">
+            <Canvas Width="128" Height="128" Background="#1A73E8">
                 <Canvas.Clip>
                     <RectangleGeometry Rect="0,0,128,128" />
                 </Canvas.Clip>
-                <Ellipse Width="200" Height="100" Canvas.Left="-36" Canvas.Top="-30" Fill="#3498DB"/>
+                <Ellipse Width="200" Height="100" Canvas.Left="-36" Canvas.Top="-30" Fill="#4A90E2"/>
                 <Rectangle Width="30" Height="50" Fill="White" Canvas.Left="49" Canvas.Top="30"/>
                 <Polygon Points="34,70 94,70, 64,100" Fill="White" />
             </Canvas>

@@ -1,9 +1,9 @@
 {
-    "name": "XDM v8+ Browser Helper",
+    "name": "TheDownload Manager Browser Helper",
     "browser_action": {},
     "manifest_version": 2,
     "version": "1.4",
-    "description": "Download files with XDM v8+",
+    "description": "Download files with TheDownload Manager by Rincol Tech.",
     "permissions": [
         "tabs",
         "cookies",

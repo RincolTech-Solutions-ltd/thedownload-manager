@@ -1,9 +1,9 @@
 {
-    "name": "XDM Integration Module",
+    "name": "TheDownload Manager Integration",
     "action": {},
     "manifest_version": 3,
     "version": "3.3",
-    "description": "Download with Xtreme Download Manager.",
+    "description": "Download with TheDownload Manager by Rincol Tech.",
     "host_permissions": [
         "*://*/*"
     ],
