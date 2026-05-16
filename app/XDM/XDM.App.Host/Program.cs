@@ -342,7 +342,7 @@ namespace XDM.App.Host
             try
             {
 
-#if NET6_0
+#if NET6_0_OR_GREATER
                 var exe = Path.Combine(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, ".."), "xdm-app");
                 ProcessStartInfo psi = new()
                 {

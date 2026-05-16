@@ -1,9 +1,9 @@
 {
   "name": "xdmff.native_host",
-  "description": "Native messaging host for Xtreme Download Manager",
-  "path": "xdm-app-host.exe",
+  "description": "Native messaging host for TheDownload Manager by Rincol Tech",
+  "path": "/opt/tdman/XDM.App.Host/xdm-app-host",
   "type": "stdio",
   "allowed_extensions": [
-    "xdm-integration-module@subhra74.github.io"
+    "tdm-browser-helper@rincoltech.com"
   ]
 }
